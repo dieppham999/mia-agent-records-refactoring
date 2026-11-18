@@ -2,15 +2,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>[Thực hành]: Dự án tái thiết Hệ thống Hồ sơ Đặc vụ M.I.A</title>
 </head>
 <body>
     <h1>Danh sách Đặc vụ M.I.A</h1>
     <h3>Khu vực: Châu Á</h3>
-    <p>Mã: 007 | Tên: James Bond | Cấp bậc: Senior</p>
-    <p>Mã: 099 | Tên: John Doe | Cấp bậc: Trainee</p>
-    <h3>Khu vực: Châu Âu</h3>
-    <p>Mã: 006 | Tên: Alec Trevelyan | Cấp bậc: Senior</p>
-    <p>Mã: 102 | Tên: Silva | Cấp bậc: Rogue</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Khu vực</th>
+                <th>Mã đặc vụ</th>
+                <th>Tên đặc vụ</th>
+                <th>Cấp bậc</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td rowspan="2">Châu Á</td>
+                <td>007</td>
+                <td>James Bond</td>
+                <td>Senior</td>
+            </tr>
+            <tr>
+                <td>099</td>
+                <td>John Doe</td>
+                <td>Trainee</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Châu Âu</td>
+                <td>006</td>
+                <td>Alec Trevelyan</td>
+                <td>Senior</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Silva</td>
+                <td>Rogue</td>
+            </tr>
+           
+        </tbody>
+
+        <tfoot>
+             <tr>
+                <td colspan="4">Tổng số lượng đặc vụ: 4.</td>
+            </tr>
+        </tfoot>
+        
+    </table>
 </body>
 </html>
